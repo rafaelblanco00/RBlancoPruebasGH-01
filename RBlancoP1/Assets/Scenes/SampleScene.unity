@@ -583,6 +583,7 @@ GameObject:
   - component: {fileID: 313214714}
   - component: {fileID: 313214713}
   - component: {fileID: 313214712}
+  - component: {fileID: 313214715}
   m_Layer: 0
   m_Name: Cubo
   m_TagString: Untagged
@@ -749,7 +750,19 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 313214715}
+        m_TargetAssemblyTypeName: Mensajes, Assembly-CSharp
+        m_MethodName: Mensaje1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -878,6 +891,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &313214715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313214707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 267e958f56e812c478178efe1be1fbf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &371240563
 GameObject:
   m_ObjectHideFlags: 0
@@ -3256,6 +3281,7 @@ GameObject:
   - component: {fileID: 1190435491}
   - component: {fileID: 1190435490}
   - component: {fileID: 1190435489}
+  - component: {fileID: 1190435493}
   m_Layer: 0
   m_Name: Disparador - Azul
   m_TagString: Untagged
@@ -3359,7 +3385,7 @@ MonoBehaviour:
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
-  m_CustomReticle: {fileID: 0}
+  m_CustomReticle: {fileID: 6276049322379043361, guid: 50f8f67d1c30d1a40b0612e3b9e1835b, type: 3}
   m_AllowGazeInteraction: 0
   m_AllowGazeSelect: 0
   m_OverrideGazeTimeToSelect: 0
@@ -3387,7 +3413,19 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1190435493}
+        m_TargetAssemblyTypeName: Mensajes, Assembly-CSharp
+        m_MethodName: Mensaje2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -3439,6 +3477,18 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1190435493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190435487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 267e958f56e812c478178efe1be1fbf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1218480186
 GameObject:
   m_ObjectHideFlags: 0
@@ -5467,6 +5517,7 @@ GameObject:
   - component: {fileID: 1608332561}
   - component: {fileID: 1608332560}
   - component: {fileID: 1608332559}
+  - component: {fileID: 1608332563}
   m_Layer: 0
   m_Name: Disparador - Verde
   m_TagString: Untagged
@@ -5570,7 +5621,7 @@ MonoBehaviour:
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
-  m_CustomReticle: {fileID: 0}
+  m_CustomReticle: {fileID: 6276049322379043361, guid: 50f8f67d1c30d1a40b0612e3b9e1835b, type: 3}
   m_AllowGazeInteraction: 0
   m_AllowGazeSelect: 0
   m_OverrideGazeTimeToSelect: 0
@@ -5598,7 +5649,19 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1608332563}
+        m_TargetAssemblyTypeName: Mensajes, Assembly-CSharp
+        m_MethodName: Mensaje3
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Rafael
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -5650,6 +5713,18 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1608332563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608332557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 267e958f56e812c478178efe1be1fbf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1685087614
 GameObject:
   m_ObjectHideFlags: 0
@@ -5831,6 +5906,7 @@ GameObject:
   - component: {fileID: 1870231003}
   - component: {fileID: 1870231002}
   - component: {fileID: 1870231001}
+  - component: {fileID: 1870231005}
   m_Layer: 0
   m_Name: Disparador - Naranja
   m_TagString: Untagged
@@ -5934,7 +6010,7 @@ MonoBehaviour:
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
-  m_CustomReticle: {fileID: 0}
+  m_CustomReticle: {fileID: 6276049322379043361, guid: 50f8f67d1c30d1a40b0612e3b9e1835b, type: 3}
   m_AllowGazeInteraction: 0
   m_AllowGazeSelect: 0
   m_OverrideGazeTimeToSelect: 0
@@ -5962,7 +6038,19 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1870231005}
+        m_TargetAssemblyTypeName: Mensajes, Assembly-CSharp
+        m_MethodName: Mensaje2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -6014,6 +6102,18 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1870231005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870230999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 267e958f56e812c478178efe1be1fbf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1945744177
 GameObject:
   m_ObjectHideFlags: 0
